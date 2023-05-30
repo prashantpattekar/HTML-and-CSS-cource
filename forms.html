@@ -1,0 +1,85 @@
+<!-- <form action="http://127.0.0.1:8080/firstapp/">
+	<p>Name:</p>
+	<input type="text" name="name" required minlength="5">
+	<p>Mobile Number:</p>
+	<input type="Number" name="Mobile" required><br>
+	<input type="submit">
+</form> -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>html form</title>
+	<link
+</head>
+
+<body>
+	<h1>Course Registration Form</h1>
+	
+	
+	<form action="http://127.0.0.1:8000/firstapp/">
+		<fieldset>
+			<legend>Personal Details</legend>
+			<table>
+				<tr>
+					<td><label>First Name</lable></td> <td><input type="text" name="FN" placeholder="ex:Rohit" size="15" maxlength="10"></td>
+					</tr>
+					<tr>
+						<td><label>Sur name</lable></td><td><input type="text" name="LN" placeholder="ex:Pattekar" size="15"></td>
+						</tr>
+						<tr>
+							<td><label>Mobile number</label></td> <td><input type="tel" name="mob" placeholder="987-333-4324" size="15"></td>
+						</tr>
+						<tr>
+							<td><label>Email</label></td><td><input type="Email" name="mail" size="15" placeholder="Ex:prashant@gmail.com"></td>
+						</tr>
+						<tr>
+							<td><label>Password</label></td><td><input type="Password" name="pwd" placeholder="min 5 characters" size="15"></td>
+						</tr>
+						<tr>
+							<td><label>Confirm Password</label></td><td><input type="Password" name="cpwd" placeholder="min 5 characters" size="15"></td>
+						</tr>
+						<tr>
+							<td><label>DOB</label></td><td><input type="date" name="dob"></td>
+						</tr>
+						<tr>
+							<td><label>Gender</label></td><td><input type="radio" name="gender" value="Male">Male<input type="radio" name="gender" value="female">Female<input type="radio" name="gender" value="custom">Custom</td>
+						</tr>
+						<tr>
+							<td><label>Select country</label></td> <td><select name="country">
+								<option value="india">India</option>
+								<option value="usa">USA</option>
+								<option value="china">China</option>
+							</select></td>
+						</tr>
+						<tr>
+							<td><label>upload picture</label></td> <td><input type="file" name="picture"></td>
+						</tr>
+						<tr>
+							<td><input type="reset"></td>
+						</tr>
+					</table>		
+			</fieldset>
+			<fieldset>
+				<legend>Course Details</legend>
+				<label>Select Coures</label>
+				<select name="Course">
+					<option value="PFS">Python full stack</option>
+					<option value="JFS">Java full Stack</option>
+					<option value="CJ">Core Java</option>
+					<option value="PDS">Python for DataScience</option>
+				</select><br>
+				<label>Delivery Mode</label>
+				<input type="checkbox" name="mode1" value="ON">Online
+				<input type="checkbox" name="mode2" value="OFF"> Offline<br>
+				<label>Comments</label><br>
+				<textarea rows="4" cols="50"></textarea>
+			</fieldset>
+			<!-- <img src="submit1.png" type="input" height="100" width="100" type="submit" > -->
+			<input type="image" src="submit1.png" height="100" width="100" alt="submit" />
+		</form>
+	</body>
+	</html>
+		
+		

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>home</title>
+	<link rel="stylesheet" type="text/css" href="uisel.css">
+</head>
+<body>
+	<h2>Sign up form</h2>
+	<form action="index.html" target="_blank">
+		<table>
+			<tr>
+				<td><label>Name:</label></td>
+				<td><input type="text" name="name" size="15" required><p>Enter your name</p> </td>
+				
+			</tr>
+			<tr>
+				<td><label>College:</label> </td>
+				<td><input type="text" name="college" size="15" disabled></td>
+			</tr>
+			<tr>
+				<td><label>Primary-Email:</label> </td>
+				<td><input type="email" name="pmail" size="15" required>
+				<p>Enter your mail</p>
+				<img class="valid" src="valid.png" height="20" width="20">
+				<img class="invalid" src="invalid.png" height="20" width="20"> </td>
+			</tr>
+			<tr>
+				<td><label>Secondary-Email:</label> </td>
+				<td><input type="email" name="smail" size="15">
+				<p>Enter your mail</p>
+				<img class="valid" src="valid.png" height="20" width="20">
+				<img class="invalid" src="invalid.png" height="20" width="20"> </td>
+			</tr>
+			<tr>
+				<td><label>Password:</label></td>
+				<td><input type="Password" name="pwd" size="15" required> </td>
+				<p>Enter your Password</p>
+			</tr>
+			<tr>
+				<td><label>Gender:</label> </td>
+				<td>
+					<input type="radio" name="gender" value="M" checked>
+					<label>Male</label>
+					<input type="radio" name="gender" value="F">
+					<label>Female</label>
+					<input type="radio" name="gender" value="O">
+					<label>Other</label>
+				</td>
+			</tr>
+
+			<tr>
+				<td><label>Age:</label></td>
+				<td><input type="number" name="age" size="15" min="18" max="100" value="18" required> 
+				<p>Enter your age</p>
+				<img class="valid" src="valid.png">
+				<img class="invalid" src="invalid.png">
+				<p>value must be between 18 to 100</p>
+				</td>
+			</tr>
+
+			<tr>
+				<td><label>MOD:</label></td>
+				<td><input type="text" name="mod" size="15" readonly value="Online"> 
+				<p>Only online mode available</p></td>
+			</tr>
+
+			<tr>
+				<td>
+					<input type="submit" name="submit">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

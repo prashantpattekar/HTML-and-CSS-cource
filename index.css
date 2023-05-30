@@ -1,0 +1,39 @@
+p{
+    color: wheat;
+    background-color: darkgoldenrod;
+    
+}
+
+h1{
+    color: red;
+    background-color: skyblue;
+    text-align: center;
+}
+h2{
+
+}
+form{
+    color: red;
+    background-color: darkseagreen;
+}
+
+table{
+   
+
+}
+
+fieldset{
+    color: black;
+    background-color: aqua;
+    background: orange;
+}
+legend{
+    color: red;
+}
+input{
+    color:indigo;
+    background-color: brown;
+}
+textarea{
+    background-color: deeppink;
+}
